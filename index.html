@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquer Responsive Layouts</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header class="bg-dark header">
+        <nav class="container row nav bg-dark">
+
+            <button id="nav__toggle" class="nav__burger col" aria-label="open navigation">
+                <div class="nav__burger-lines" id="nav__burger-lines">
+                    <span class="nav__burger-line nav__burger-line--1"></span>
+                    <span class="nav__burger-line nav__burger-line--2"></span>
+                    <span class="nav__burger-line nav__burger-line--3"></span>
+                </div>
+            </button>
+
+            <a href="#" class="col">
+                <img class="nav__logo" src="./images/logo.svg" alt="CRL">
+            </a>
+
+            <div id="nav__lists" class="nav__lists">
+                <ul class="nav__list nav__list--primary row">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+                <ul class="nav__list nav__list--secondary row">
+                    <li class="nav__item">
+                        <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="__blank" class="nav__link">
+                            Sign in
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="__blank" class="nav__link nav__link--cta">
+                            Sign up
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container row">
+            <div class="col home__headings">
+                <h1>Responsive layouts <span class="text-brown">don't have to be a struggle</span></h1>
+            </div>
+            <div class="col home__description ">
+                <p class="text-light-gray home__text">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="__blank" class="nav__link--cta nav__link--cta-large">
+                    I want to learn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About  -->
+    <section id="about" class="abouts">
+        <div class="container row">
+            <div class="col about">
+                <h4 class="text-brown about__headers">Mobile First</h4>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.
+                </p>
+            </div>
+            <div class="col about">
+                <h4 class="text-brown about__headers">Efficient</h4>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.
+                </p>
+            </div>
+            <div class="col about">
+                <h4 class="text-brown about__headers">Done right</h4>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container abouts-2">
+        <article class="article">
+            <h3 class="about__headers text-brown">It doesn't have to be so hard</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <img class="crl-image" src="./images/crl-image.jpg" alt="crl">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+        </article>
+
+        <aside class="aside">
+            <div class="about--aside">
+                <h4>
+                    Break it down
+                </h4>
+                <p class="text-light-gray">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="about--aside">
+                <h4>
+                    Work your way up
+                </h4>
+                <p class="text-light-gray">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="about--aside">
+                <h4>
+                    Break it down
+                </h4>
+                <p class="text-light-gray">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+        </aside>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2 class="footer__header text-white">just scratching the surface</h2>
+            <div class="row">
+                <div class="col-8">
+                    <h5 class="text-brown">
+                        About our company
+                    </h5>
+                    <p class="text-light-gray">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.                     
+                    </p>
+                </div>
+                <div class="col-1">
+                    <h5 class="text-brown">Getting Around</h5>
+                    <ul class="contact__lists">
+                        <li class="contact__item">
+                            <a href="#home" class="contact__link text-light-gray">Home</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#About" class="contact__link text-light-gray">About</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#contact" class="contact__link text-light-gray">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h5 class="text-brown">Other things</h5>
+                    <ul class="contact__lists">
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">Lorem ipsum</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">dolor</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">Sit amet</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">consectetur</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <h5 class="text-brown">And More</h5>
+                    <ul class="contact__lists">
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">Lorem ipsum</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">dolor</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">Sit amet</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__link text-light-gray">consectetur</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script  src="./assets/js/script.js"></script>
+</body>
+</html>
